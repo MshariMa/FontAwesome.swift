@@ -1411,6 +1411,11 @@ public enum FontAwesome: String {
     case youtube = "fa-youtube"
     case youtubeSquare = "fa-youtube-square"
     case zhihu = "fa-zhihu"
+    //Added by Mshari
+    case loveseat = "fa-loveseat"
+    case carmechanic = "fa-car-mechanic"
+    case truckplow = "fa-truck-plow"
+    case personsign = "fa-person-sign"
 
     /// An unicode code of FontAwesome icon
     public var unicode: String {
@@ -2800,6 +2805,11 @@ public enum FontAwesome: String {
             case .youtube: return "\u{f167}"
             case .youtubeSquare: return "\u{f431}"
             case .zhihu: return "\u{f63f}"
+            //Added By Mshari
+            case .loveseat: return "\u{f4cc}"
+            case .carmechanic: return "\u{f5e3}"
+            case .truckplow: return "\u{f7de}"
+            case .personsign: return "\u{f757}"
             default: return ""
         }
     }
