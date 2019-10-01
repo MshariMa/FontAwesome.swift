@@ -1416,6 +1416,7 @@ public enum FontAwesome: String {
     case carmechanic = "fa-car-mechanic"
     case truckplow = "fa-truck-plow"
     case personsign = "fa-person-sign"
+    case rectangleWide = "fa-rectangle-wide"
 
     /// An unicode code of FontAwesome icon
     public var unicode: String {
@@ -2810,6 +2811,7 @@ public enum FontAwesome: String {
             case .carmechanic: return "\u{f5e3}"
             case .truckplow: return "\u{f7de}"
             case .personsign: return "\u{f757}"
+            case .rectangleWide: return "\u{f2fc}"
             default: return ""
         }
     }
