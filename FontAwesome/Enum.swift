@@ -2813,7 +2813,7 @@ public enum FontAwesome: String {
             case .truckplow: return "\u{f7de}"
             case .personsign: return "\u{f757}"
             case .rectangleWide: return "\u{f2fc}"
-            case .steeringWheel = return "\u{f622}"
+            case .steeringWheel: return "\u{f622}"
             default: return ""
         }
     }
