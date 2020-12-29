@@ -1418,6 +1418,7 @@ public enum FontAwesome: String {
     case personsign = "fa-person-sign"
     case rectangleWide = "fa-rectangle-wide"
     case steeringWheel = "fa-steering-wheel"
+    case signOut = "fa-sign-out"
 
     /// An unicode code of FontAwesome icon
     public var unicode: String {
@@ -2814,6 +2815,7 @@ public enum FontAwesome: String {
             case .personsign: return "\u{f757}"
             case .rectangleWide: return "\u{f2fc}"
             case .steeringWheel: return "\u{f622}"
+            case .signOut: retur "\u{f08b}"
             default: return ""
         }
     }
@@ -3682,7 +3684,8 @@ public enum FontAwesomeBrands: String {
             case .yoast: return "\u{f2b1}"
             case .youtube: return "\u{f167}"
             case .youtubeSquare: return "\u{f431}"
-            case .zhihu: return "\u{f63f}"        
+            case .zhihu: return "\u{f63f}"
+            
         }
     }
 }
