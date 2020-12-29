@@ -2815,7 +2815,7 @@ public enum FontAwesome: String {
             case .personsign: return "\u{f757}"
             case .rectangleWide: return "\u{f2fc}"
             case .steeringWheel: return "\u{f622}"
-            case .signOut: retur "\u{f08b}"
+            case .signOut: return "\u{f08b}"
             default: return ""
         }
     }
